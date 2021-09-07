@@ -1,5 +1,7 @@
-print("loaded")
+[
+  print("loaded")
 local plr = game.Players.LocalPlayer
 local char = plr.Character
 local head = char:WaitForChild("Head")
 head:Destroy()
+]
